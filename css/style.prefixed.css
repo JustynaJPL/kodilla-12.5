@@ -1,0 +1,45 @@
+body {
+  font-family: 'Spectral SC', serif;
+  background-color: #2196F3;
+  color: #FFFFFF; }
+
+header {
+  text-align: center;
+  margin: 100px auto;
+  text-transform: uppercase; }
+
+.box {
+  text-align: center;
+  margin: 50px auto; }
+  .box .quote {
+    text-transform: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px; }
+
+.action-btns {
+  display: block;
+  margin: 20px auto;
+  text-align: center; }
+  .action-btns .trigger {
+    background-color: #FF4081;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin-right: 30px; }
+    .action-btns .trigger:hover {
+      background-color: #BDBDBD;
+      color: #FFFFFF;
+      transition: 0.5s; }
+  .action-btns a {
+    color: #FFFFFF;
+    padding: 12px 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none; }
+    .action-btns a:hover {
+      background-color: #FFFFFF;
+      color: #2196F3;
+      transition: 0.5s; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
